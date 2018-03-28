@@ -1,0 +1,185 @@
+
+
+* {
+    /*font-family: 'Work Sans', 'Arial', sans-serif;*/
+    /*font-family: Arial;*/
+
+}
+
+body {
+    padding: 0;
+}
+
+
+
+/*Header*/
+
+.header {
+    display: flex;
+    background: #3B5998;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 45px;
+    font-family: sans-serif;
+    padding-left: 80px;
+    padding-top: 0;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+
+
+
+
+}
+
+.phone {
+    padding-right: 80px;
+}
+
+.pass {
+    padding-right: 50px;
+}
+
+.headbutt {
+    padding-right: 80px;
+    align-self: center;
+}
+
+#loginbutt {
+    background: #4267B2;
+    color: white;
+    border: 1px  solid #29487D;
+}
+
+#forget {
+    color: #9CB4D8;
+    text-decoration: none;
+}
+
+#forget :hover {
+    text-decoration: underline;
+}
+
+
+/*Middle Part*/
+
+.mid {
+    display: flex;
+    background: #e9ebee;
+    justify-content: center;
+    align-items: center;
+    height: 375px;
+    flex-direction: column;
+
+}
+
+.mid-block {
+    display: flex;
+    background: white;
+    height:131px;
+    width: 555px;
+
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 4px 4px 0 0;
+}
+
+.findyour {
+    padding-left: 21px;
+    padding-right: 21px;
+    font-weight: bold;
+
+}
+
+
+.search {
+    align-self: center;
+    /*padding-left: 85px;*/
+    /*padding-right: 108px;*/
+    /*font-size: 10px;*/
+}
+
+
+
+.basement {
+    display: flex;
+    background: #f2f2f2;
+    width: 555px;
+    height: 40px;
+    align-items: center;
+    justify-content: flex-end;
+    border: 1px solid #ccc;
+    border-top: 0;
+    border-radius: 0 0 4px 4px;
+}
+
+#btn1 {
+    margin-right: 4px;
+    background: #4267B2;
+    color: white;
+    border: 1px  solid #29487D;
+
+}
+
+#btn2 {
+    margin-right: 10px;
+    font-family: 'Work Sans', sans-serif;
+    background: #F6F7F9;
+    color: black;
+    border: 1px solid #CED0D4;
+}
+
+/*FOOTER*/
+
+footer {
+    padding-top: 247px;
+    padding-left: 142px;
+    padding-right: 142px;
+
+
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    font-size:12px;
+
+}
+
+li{
+    padding-right:15px;
+    padding-top: 12px;
+
+}
+
+a {
+    color: #365899;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size:14px;
+    color: #8a738a;
+}
